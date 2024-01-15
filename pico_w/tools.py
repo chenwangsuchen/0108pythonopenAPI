@@ -6,7 +6,7 @@ from machine import WDT
 
 rp2.country('TW') #設定我們的wifi的地區是台灣(可以不設)
 
-ssid = 'GalaxyA525GF5F4'
+ssid = 'GalaxyA525GF5F3'
 password = 'ccsb4649'
 
 wlan = network.WLAN(network.STA_IF)
