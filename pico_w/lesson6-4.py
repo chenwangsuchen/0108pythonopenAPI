@@ -7,3 +7,5 @@ def second1(t):
     led25.toggle()
 
 tim1 = Timer(period=1000, mode=Timer.PERIODIC, callback=second1)
+
+
