@@ -8,7 +8,7 @@
 import time
 import network
 
-ssid = 'chensuchen'
+ssid = ''
 password = 'Galaxy tab A8'
 
 wlan = network.WLAN(network.STA_IF)
