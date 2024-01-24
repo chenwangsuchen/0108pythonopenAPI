@@ -6,7 +6,7 @@ import urequests
 red_led = Pin(15,mode=Pin.OUT)
 btn = Pin(14,mode=Pin.PULL_DOWN)
 is_press = False
-#connect()
+connect()
 
 while True:
     if btn.value():
@@ -25,7 +25,7 @@ while True:
                 currentTime = f'{times_tuple[0]}-{times_tuple[1]}-{times_tuple[2]} {times_tuple[3]}:{times_tuple[4]}:{times_tuple[5]}'
                 print(currentTime)
                 is_press = False
-                '''
+                
                 url_str = 'https://自已的網址/pico_w/2024-01-22 16:02:10?address=chicken_KFC&celsius=15.386'
                 try:
                     response = urequests.get(url_str)
@@ -39,7 +39,7 @@ while True:
                     else:
                         print("傳送失敗(server出現錯誤)")
                     response.close()
-                '''
+                
             
         
             red_led.value(0)
