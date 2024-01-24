@@ -51,3 +51,6 @@ while True:
                         print("傳送失敗(server出現錯誤)")
                     response.close()
                 '''
+            
+        
+            red_led.value(0)
